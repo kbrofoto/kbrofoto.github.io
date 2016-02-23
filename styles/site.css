@@ -54,37 +54,8 @@ h5 {
   margin-top: 24px;
   margin-bottom: 0px;
 }
-p, ul, ol, pre, table, blockquote {
-  margin-top: 0px;
-  margin-bottom: 24px;
+
+
+a li {
+  display: inline-block;
 }
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-hr {
-  border: 1px solid;
-  margin: -1px 0;
-}
-b, strong, em, small, code {
-  line-height: 1;
-}
-sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
-}
-a {
-  color: #268ED9;
-}
-.gridlover-grid {
-  background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, .3) 1px, transparent 1px);
-  background-position: left -1px;
-  background-repeat: repeat;
-  background-size: 24px 24px;
-}
-.gridlover-grid body {
